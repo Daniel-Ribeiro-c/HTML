@@ -1,0 +1,139 @@
+HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page Simples</title>
+    <link rel= "stylesheet" href = "./style.css">
+
+
+</head>
+<body>
+    <!-- Cabeçalho-->
+    <header>
+        <h1>Bem vindo á nossa Landing Page </h1>
+        <p>Aprenda HTML E CSS de forma simples e rápida</p>
+    </header>
+   
+    <!-- Seção de conteúdo-->
+   
+    <section>
+        <h2>O quê vai aprender</h2>
+        <ul>
+            <li>Estrutura báica de HTML</li>
+            <li>Como estilizar páginas em CSS</li>
+            <li>Como criar layouts simples e responsivos</li>
+        </ul>
+    </section>
+   
+    <!-- Seção de chamada para ação -->
+    <section>
+        <h2>Inscreva-se no nosso curso!</h2>
+        <p>Não perca a chance de aprender de forma prática</p>
+        <button>Inscreva-se</button>
+    </section>
+   
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Curso HTML e CSS. Todos os direitos reservados. By Daniel Ribeiro.</p>
+    </footer>
+
+
+</body>
+</html>
+
+
+
+CSS:
+
+/* Resetando o padding e margin para todos os elementos */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilo para o corpo da página */
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6; /*Melhor leitura*/
+    background-color: #f4f4f4f4; /*Cor de fundo clara*/
+    color: black; /*Cor de texto escura*/
+}
+
+
+/*Estilo para o cabeçalho*/
+header {
+    background-color: #d40101;
+    color: white;
+    padding: 20px;
+    text-align: center; /*alinhando o texto ao centro*/
+}
+
+
+section{
+    margin: 20px; /*margem*/
+    padding: 20px; /*espaçamento*/
+    background-color: white; /*cor do fundo*/
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* adicionando uma sombra sutil*/
+}
+
+
+/*cor vermelha em subtitulos*/
+
+
+h2{
+    color: #d40101;
+}
+
+
+/*Estilo para listas*/
+
+
+ul{
+    list-style-type: none; /*remover bolinhas da lista*/
+}
+ul li{
+    margin: 10px 0; /*adicionando espaçamento entre os itens*/
+}
+ 
+/*Estilo para o botão*/
+
+
+button{
+    background-color: #d40101; /*cor do botão*/
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /*arredondar os cantos*/
+    cursor: pointer; /*cursor de mão ao passar o mouse*/
+    font-size: 16px;
+}
+
+
+button:hover{
+    background-color: #d40101;
+}
+
+
+/* Estilo para o rodapé*/
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
